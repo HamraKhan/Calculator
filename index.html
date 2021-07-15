@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="calculation.js"></script>
+    </head>
+    <body>
+        
+        <h1>Calculator</h1>
+
+        <form action="javascript:;" onSubmit="return calculate()">
+            <label for="area1">First area</label>
+            <input type="text" id="area1" name="area1"><br><br>
+
+            <label for="area2">Second area</label>
+            <select id="area2" name="area2">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option> 
+            </select><br><br>
+
+            <label for="area3">Third area</label>
+            <input type="text" id="area3" name="area3"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <h2>Result</h2>
+        <label id="calculatorResult"></label>
+    </body>
+
+</html>
